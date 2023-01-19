@@ -1,0 +1,21 @@
+git init
+
+git config --global user.name ["Your Full Name on Github"]
+
+git config --global user.email ["email used to sign up for Github"]
+
+echo "hi" > README.md
+
+git add [Testfile.save format]
+
+git commit -m "First Commit Here" 
+
+(Now Go to your Github Account and create a new repository or click this link to create if you already have a Github Account https://github.com/new then set it to public and create)
+
+git branch -m main
+
+git remote add origin [link to your new repository] 
+
+git push -u origin main
+
+git status 
