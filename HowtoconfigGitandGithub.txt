@@ -1,0 +1,33 @@
+$ git init
+Initialized empty Git repository in E:/GAD/ProgrammingWithGad/.git/
+
+$ git config --global user.name "Adeyemi Oluwagbenga Daniel"
+
+$ git config --global user.email "adeyemidanielgad@gmail.com"
+
+$ echo "hi" > README.md
+
+$ git add Testfile.html
+
+$ git commit -m "First Commit Here"
+[master (root-commit) 1c29d9f] First Commit Here
+ 1 file changed, 54 insertions(+)
+ create mode 100644 Testfile.html
+
+$ git branch -m main
+
+$ git remote add origin https://github.com/DanielGad/NewRepo.git
+
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 744 bytes | 744.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/DanielGad/NewRepo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+$ git status
+
