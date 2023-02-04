@@ -1,0 +1,3 @@
+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
+
+git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/{YOUR_REPOSITORY_NAME}.git
