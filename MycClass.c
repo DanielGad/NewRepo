@@ -57,10 +57,48 @@ int main(void) {
 char a = 5;
 if (a == 2) {
     printf("a is equal to 2");
-} else if (a == 3) {
-    printf("a is not equal to 3");
+} else if (a == 5) {
+    printf("a is equal to 5");
 } else {
     printf("a is an integral");
 }
 }
+
+
+//loop
+int main(void) {
+for (int i = 0; i <= 10; i++) {
+    /*instructions to be repeated*/
+    printf("%u", i);
+}
+}
+
+int main(void) {
+for (int i = 30; i < 1000; i = i + 30) {
+    /*instructions to be repeated*/
+    printf("%u", i);
+}
+}
+
+// While Loop
+int main(void) {
+int i = 0;
+while (i < 200)
+{
+    i = i + 2;
+    printf("%u", i);
+}
+}
+
+int main(void) {
+int i = 0;
+while (i < 10)
+{
+    i++;
+    printf("%u", i);
+}
+}
+
+
+
 
